@@ -1,0 +1,33 @@
+<script type="text/javascript">
+
+    var phy = parseInt(prompt("Enter Marks of Physics"));
+    var chem = parseInt(prompt("Enter Marks of Chemistry"));
+    var bio = parseInt(prompt("Enter Marks of Biology"));
+    var maths = parseInt(prompt("Enter Marks of Maths"));
+    var comp = parseInt(prompt("Enter Marks of Computer"));
+
+    var p = (phy + chem + bio + maths + comp) / 5;
+
+    if (p >= 90) {
+        alert("Percentage = " + p + ", Grade A");
+    }
+    else if (p >= 80) {
+        alert("Percentage = " + p + ", Grade B");
+    }
+    else if (p >= 70) {
+        alert("Percentage = " + p + ", Grade C");
+    }
+    else if (p >= 60) {
+        alert("Percentage = " + p + ", Grade D");
+    }
+    else if (p >= 50) {
+        alert("Percentage = "+p+", Grade E");
+    }
+    else if (p >= 40) {
+        alert("Percentage = "+p+", Grade F");
+    }
+    else {
+        palert("Percentage = "+p+", You Failed Horribely");
+    }
+
+</script>
